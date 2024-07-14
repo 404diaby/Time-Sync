@@ -17,28 +17,6 @@ Checkpoint : External packages from [roadmap.sh](https://roadmap.sh/full-stack)
   * Timezone Selection using a dropdown menu to select a timezone, with options for Lagos, Paris, New York, Tokyo, Sydney.
   * Current Time, Date and Time Zone Display
 
-
-
-
-Install dependencies
-
-* `npm install` or `yarn install`
-
-Start the server
-
-* `npm start` or `yarn start`
-
-### Usage
-
-* Open the application in your web browser: `http://localhost:3000`
-* Create a new task by clicking the "Add Task" button
-* Filter tasks using the search bar
-* Sort tasks using the dropdown menu
-* Edit or delete tasks as needed
-
-  
-
-
 ## Getting Started
 
 ### Installation
