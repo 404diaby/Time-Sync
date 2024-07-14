@@ -36,11 +36,12 @@ p{
 #timeZone{
     color: lightgray;
     font-size: 1.2rem;
+    font-weight: 200;
     font-style: italic;
 }
 #currentTime{
     font-size: 6rem;
-    font-weight: bold;
+    font-weight: 900;
 }
 #date{
     font-size: 1.2rem;

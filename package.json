@@ -1,1 +1,25 @@
-{}
+{
+  "name": "timesync",
+  "version": "1.0.0",
+  "description": "This application displays the current date and time for a selected timezone.",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "browserify app.js -o bundle.js",
+    "watch:bundle": "nodemon -e js -x \"npm run bundle\" --config nodemon.json",
+    "serve": "live-server --ignore=bundle.js",
+    "start": "npm-run-all --parallel watch:bundle serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "google-fonts": "^1.0.0",
+    "micromodal": "^0.4.10"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "live-server": "^1.2.0",
+    "nodemon": "^3.1.4",
+    "npm-run-all": "^4.1.5"
+  }
+}
