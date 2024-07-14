@@ -23,13 +23,21 @@ Checkpoint : External packages from [roadmap.sh](https://roadmap.sh/full-stack)
 
 Clone the project
 
-* `https://github.com/404diaby/timeSync.git`
+* `git clone  https://github.com/404diaby/timeSync.git`
 
 Go to the project directory
 
 * ` cd timeSync`
 
+Install dependencies
 
+* `npm install --production`
+
+Start the server 
+
+* `npm run start` 
+
+Or open `index.html` files in your browser
 
 ### Usage
 
@@ -70,7 +78,7 @@ Go to the project directory
 ## Future Plans
 
 ###....
-
+* explain script part for dev mode
 
 
 
